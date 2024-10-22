@@ -2,7 +2,7 @@ import React from "react";
 import { FaDownload } from "react-icons/fa6";
 export const Documents =(props)=>{
     return(
-        <div id="portfolio" className="text-center">
+        <div id="documents" className="text-center">
             <div className="container">
                 <div className="section-title">
                     <h2>Documents</h2>

@@ -31,24 +31,24 @@ export const Features = (props) => {
     {
       title: <strong>Mobile Application</strong>,
       icon: "fa fa-android", // Replace with actual icon class
-      text: "Automatically deploys fire extinguishers to control vehicle fires efficiently before they spread further.",
+      text: "Keep the Driver upto date  about the system also alert about the fire outbreaks.",
     },
     {
       title: <strong>Fire Department Alerts </strong>,
       icon: "fa fa-building", // Replace with actual icon class
-      text: "Automatically deploys fire extinguishers to control vehicle fires efficiently before they spread further.",
+      text: "alert the fire department ASAP and provide them realtime insights about the fire outbreak.",
     },
     {
       title: <strong>Detailed Dashboard</strong>,
       icon: "fa fa-dashboard", // Replace with actual icon class
-      text: "Real-time fire incident reports .",
+      text: "Real-time fire incident reporting and all previous fire relates statistics will be available for fire department.",
     },
   ];
 
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
+        <div className="section-title">
           <h2>
             Features
           </h2>
