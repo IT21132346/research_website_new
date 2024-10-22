@@ -38,7 +38,7 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Milestones</h2>
+          <h2>Services</h2>
           <p>{commonDescription}</p>
         </div>
         <div className="row">
