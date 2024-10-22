@@ -132,23 +132,38 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "IT21132346",
+      "job": "Pasindu Dharmagunawardana"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "IT21096266",
+      "job": "Glen Anthick"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "IT21133718",
+      "job": "Dewmini Abeywardhana"
     },
     {
       "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "name": "IT21080562",
+      "job": "Aveen Peramunage"
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Supervisor",
+      "job": "Mr. Nelum Amarasena"
+    },
+    {
+      "img": "img/team/06.jpg",
+      "name": "Co-Supervisor",
+      "job": "Mr. Deemantha Nayanajith"
+    },
+    {
+      "img": "img/team/07.jpg",
+      "name": "External Supervisor",
+      "job": "Mr. W.D Onray Sahinda"
     }
   ],
   "Contact": {
