@@ -1,40 +1,8 @@
 import React from "react";
-import {Image} from "./image";
+// import {Image} from "./image";
 
 export const Team = (props) => {
-  // Team data
-  const teamData = [
-    {
-      name: "Pasindu Dharmagunwardhana",
-      img: "path/to/alex-johnson-image.jpg",
-      // job: "Product Manager",
-    },
-    {
-      name: "Glen Anthick",
-      img: "path/to/emily-white-image.jpg",
-      // job: "Lead Developer",
-    },
-    {
-      name: "Aveen  Peramunage",
-      img: "path/to/michael-brown-image.jpg",
-      // job: "Data Scientist",
-    },
-    {
-      name: "Dewmini Abeywardhana",
-      img: "path/to/sophia-taylor-image.jpg",
-      // job: "Safety Engineer",
-    },
-    {
-      name: "Deemantha Siriwardana",
-      img: "path/to/sophia-taylor-image.jpg",
-      // job: "Safety Engineer",
-    },
-    {
-      name: "Nelum Amarasena",
-      img: "path/to/sophia-taylor-image.jpg",
-      // job: "Safety Engineer",
-    },
-  ];
+
 
   return (
     <div id="team" className="text-center">
