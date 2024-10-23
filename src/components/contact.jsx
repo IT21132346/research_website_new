@@ -42,7 +42,7 @@ export const Contact = (props) => {
         <div className="container">
           <div className="col-md-8">
             <div className="row">
-              <div className="section-title">
+              <div className="section-titlec">
                 <h2>Get In Touch</h2>
                 <p>
                   Please fill out the form below to send us an email, and we
@@ -106,7 +106,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Address
                 </span>
-                123 Fire Response Ave, Suite 100, Fire City, CA 56789
+                28/5 Bishops road, hunupitiya, wattala.
               </p>
             </div>
             <div className="contact-item">
@@ -122,7 +122,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                support@firealerts.com
+                flarepath@gmail.com
               </p>
             </div>
           </div>
@@ -154,7 +154,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Fire Alerts Contact Page. Designed for safety and rapid
+            &copy; 2024 Fire Alerts Contact Page. Designed for safety and rapid
             response.
           </p>
         </div>

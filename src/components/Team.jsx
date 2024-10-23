@@ -14,7 +14,7 @@ export const Team = (props) => {
           </p>
         </div>
 
-        <div id="row justify-content-md-center">
+        <div>
           {props.data
               ? props.data.map((d, i) => {
                 return (
