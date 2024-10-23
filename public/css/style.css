@@ -32,9 +32,10 @@ h4 {
   font-weight: 600;
 }
 h5 {
-  text-transform: uppercase;
-  font-weight: 700;
+  /* text-transform: uppercase; */
+  font-weight: 400;
   line-height: 20px;
+  font-size: 20px;
 }
 p {
   font-size: 15px;
@@ -222,8 +223,8 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #ff3700;
-  font-size: 100px;
-  font-weight: 1000;
+  font-size: 68.5px;
+  font-weight: 800;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 100px;
@@ -443,6 +444,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -475,8 +477,8 @@ header .intro-text {
   color: #888;
 }
 
+ /* Milestone Section */
 #milestones {
-  /* Milestone Section */
   padding-top: 100px;
 }
 
@@ -611,13 +613,19 @@ label {
   color: #EE9161;
   background: #fff;
 }
+
+.section-titlec p {
+  color: #ffffff;
+  font-size: 16px;
+  }
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
   padding: 30px 0;
 }
 #footer p {
-  color: #888;
+  color: #919191;
   font-size: 14px;
 }
 #footer a {
@@ -637,4 +645,110 @@ label {
   .center-profile-1 {
     margin-left: 50% !important;
   }
+}
+
+
+
+/* milestones */
+
+.pt-100{
+  padding-top:100px;
+}
+.pb-100{
+  padding-bottom:100px;
+}
+.section-title {
+margin-bottom: 10px;
+}
+.section-title p {
+color: #777;
+font-size: 16px;
+}
+.section-title h4 {
+text-transform: capitalize;
+font-size: 40px;
+position: relative;
+padding-bottom: 20px;
+margin-bottom: 20px;
+font-weight: 600;
+}
+.section-title h4:before {
+position: absolute;
+content: "";
+width: 60px;
+height: 2px;
+background-color: #ff3636;
+bottom: 0;
+left: 50%;
+margin-left: -30px;
+}
+.section-title h4:after {
+position: absolute;
+background-color: #ff3636;
+content: "";
+width: 10px;
+height: 10px;
+bottom: -4px;
+left: 50%;
+margin-left: -5px;
+border-radius: 50%;
+}
+ul.timeline-list {
+position: relative;
+margin: 0;
+padding: 0
+}
+ul.timeline-list:before {
+position: absolute;
+content: "";
+width: 2px;
+height: 100%;
+background-color: #ff3636;
+left: 50%;
+top: 0;
+-webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+}
+ul.timeline-list li {
+position: relative;
+clear: both;
+display: table;
+}
+.timeline_content {
+border: 2px solid #ff3636;
+background-color:#fff
+}
+ul.timeline-list li .timeline_content {
+width: 45%;
+color: #333;
+padding: 30px;
+float: left;
+text-align: right;
+}
+ul.timeline-list li:nth-child(2n) .timeline_content {
+float: right;
+text-align: left;
+}
+.timeline_content h4 {
+font-size: 22px;
+font-weight: 600;
+margin: 10px 0;
+}
+ul.timeline-list li:before {
+position: absolute;
+content: "";
+width: 25px;
+height: 25px;
+background-color: #ff3636;
+left: 50%;
+top: 50%;
+-webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+border-radius: 50%;
+}
+.timeline_content span {
+font-size: 18px;
+font-weight: 500;
+font-family: poppins;
+color: #ff3636;
 }
