@@ -228,6 +228,7 @@
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
     }
   ],
+
   "Documents": [
     {
       "title": "Project Proposal Presentation",
@@ -246,12 +247,84 @@
       "document": "doc/all-users.pdf"
     },
     {
-      "title": "All user 4",
+      "title": "Research Paper",
+      "document": "doc/all-users.pdf"
+    }
+  ],
+  "ProposalDocument":[
+    {
+      "title": "IT21132346",
       "document": "doc/all-users.pdf"
     },
     {
-      "title": "All user 5",
+      "title": "IT21096266",
+      "document": "doc/all-users.pdf"
+    },
+    {
+      "title": "IT21133718",
+      "document": "doc/all-users.pdf"
+    },
+    {
+      "title": "IT21080562",
       "document": "doc/all-users.pdf"
     }
-  ]
+],
+"StatusDocI":[
+  {
+    "title": "IT21132346",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21096266",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21133718",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21080562",
+    "document": "doc/all-users.pdf"
+  }
+],
+"StatusDocII":[
+  {
+    "title": "IT21132346",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21096266",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21133718",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21080562",
+    "document": "doc/all-users.pdf"
+  }
+],
+"FinalReport":[
+  {
+    "title": "IT21132346",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21096266",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21133718",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "IT21080562",
+    "document": "doc/all-users.pdf"
+  },
+  {
+    "title": "Final Group Report",
+    "document": "doc/all-users.pdf"
+  }
+]
 }
