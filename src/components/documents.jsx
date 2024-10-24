@@ -1,5 +1,4 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
 import { FaDownload } from "react-icons/fa6";
 
 export const Documents =(props)=>{
