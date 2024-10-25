@@ -10,7 +10,7 @@ export const FinalReport = (props) => {
                 </div>
                 <div className="row">
                     <h4>Final Report</h4>
-                    <div>
+                    <div className="card-container">
                         {props.data
                             ? props.data.map((d, i) => (
                                 <div
