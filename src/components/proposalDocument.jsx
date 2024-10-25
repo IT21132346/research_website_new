@@ -10,7 +10,7 @@ export const ProposalDocument = (props) => {
                 </div>
                 <div className="row">
                     <h4>Project Proposal Report</h4>
-                    <div>
+                    <div className="card-container">
                         {props.data
                             ? props.data.map((d, i) => (
                                 <div
@@ -32,4 +32,3 @@ export const ProposalDocument = (props) => {
         </div>
   )
 }
-
