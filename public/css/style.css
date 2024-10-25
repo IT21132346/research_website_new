@@ -255,6 +255,35 @@ header .intro-text {
   padding-bottom: 200px;
   text-align: center;
 }
+
+/* Research Gap */
+#researchGap {
+  background: #ffffff;
+  padding-bottom: 110px;
+  padding-top: 90px;
+}
+.gaptopic {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 30px;
+}
+.gap-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  /* margin: 5px; */
+}
+.gap-card {
+  background: #f9f9f9;
+  border: 2px solid #ff6200;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.199);
+  width: 250px; /*Adjusts the width for 4 cards*/
+}
+
+
 /* Features Section */
 #features {
   background: #edc4ad;
@@ -444,10 +473,12 @@ body {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
 }
+
 .portfolio-item {
   /* margin: 1px -15px 0 -14px; */
   margin: 0;
