@@ -17,6 +17,7 @@ import { ProposalDocument } from "./components/proposalDocument";
 import { StatusDocI } from "./components/statusDocI";
 import { StatusDocII } from "./components/statusDocII";
 import { FinalReport } from "./components/finalReport";
+import { ResearchGap } from "./components/researchGap";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -33,6 +34,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <ResearchGap />
       <Features data={landingPageData.Features} />
       {/* <About data={landingPageData.About} /> */}
       <Milestones data={landingPageData.Milestones}/>
